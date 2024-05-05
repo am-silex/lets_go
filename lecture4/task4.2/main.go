@@ -4,9 +4,8 @@ import "fmt"
 
 func main() {
 
-	hello()
-}
+	func() {
+		fmt.Print("Hello, Go!")
+	}()
 
-func hello() {
-	fmt.Print("Hello, Go!")
 }

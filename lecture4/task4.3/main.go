@@ -4,14 +4,14 @@ import "fmt"
 
 func main() {
 
-	var f func() string
+	var f func()
 
-	f = func() string {
-		return fmt.Sprint("Hello, Go!")
+	f = func() {
+		fmt.Print("Hello, Go!")
 	}
-	hello(f())
+	hello(f)
 }
 
-func hello(f string) {
-	fmt.Print(f)
+func hello(f func()) {
+	f()
 }
