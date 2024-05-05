@@ -8,6 +8,10 @@ type contract struct {
 	Date   string
 }
 
+func (c contract) String() string {
+	return fmt.Sprintf("Договор № %v от %v", c.Number, c.Date)
+}
+
 func main() {
 
 	c := contract{
@@ -16,6 +20,6 @@ func main() {
 		Date:   "2024-01-31",
 	}
 
-	fmt.Println("Договор №", c.Number, "от", c.Date)
+	fmt.Println(c)
 
 }
