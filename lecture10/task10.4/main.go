@@ -1,6 +1,6 @@
 package main
 
-import "github.com/am-silex/lets_go/lecture10/task10.4/module1"
+import module1 "github.com/am-silex/lets_go_modules"
 
 func main() {
 	module1.Hello()
