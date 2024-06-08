@@ -6,5 +6,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="modules" />
+    <orderEntry type="module" module-name="lets_go_module_formater" />
   </component>
 </module>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/lets_go.iml" filepath="$PROJECT_DIR$/.idea/lets_go.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lets_go_module_formater/.idea/lets_go_module_formater.iml" filepath="$PROJECT_DIR$/../lets_go_module_formater/.idea/lets_go_module_formater.iml" />
       <module fileurl="file://$PROJECT_DIR$/../modules/.idea/modules.iml" filepath="$PROJECT_DIR$/../modules/.idea/modules.iml" />
     </modules>
   </component>
